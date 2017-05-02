@@ -1,0 +1,16 @@
+package org.alba.boutique.entities;
+
+import java.io.Serializable;
+import java.util.Collection;
+import java.util.Date;
+
+public class Commande implements Serializable {
+	private Long idCommande;
+	private Date dateCommande;
+	
+	private Client client;
+
+
+	private Collection<LigneCommande> ligneCommandes;
+
+}

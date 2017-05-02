@@ -1,0 +1,19 @@
+package org.alba.boutique;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Catalogue implements Serializable {
+	
+	
+	private Long idCategorie;
+	
+	private String nomCategorie; private String description;
+	private String nomPhoto;
+	
+	private byte[] photo;
+	
+	private Collection<Produit> produits=new ArrayList<Produit>();
+
+}

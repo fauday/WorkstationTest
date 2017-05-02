@@ -1,0 +1,16 @@
+package org.alba.boutique.entities;
+
+import java.io.Serializable;
+import java.rmi.activation.ActivationGroupDesc.CommandEnvironment;
+import java.util.Collection;
+
+public class Client implements Serializable{
+	private Long idClient;
+	private String nomClient;
+	private String adresse;
+	private String email;
+	private String tel;
+
+	private Collection<Commande> commandes;
+
+}

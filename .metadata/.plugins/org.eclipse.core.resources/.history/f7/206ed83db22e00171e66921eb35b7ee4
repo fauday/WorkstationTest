@@ -1,0 +1,16 @@
+package org.alba.boutique.entities;
+
+import java.io.Serializable;
+
+public class Produit implements Serializable {
+	@Id
+	private Long idProduit;
+
+	private String designation; private String description;
+	private double prix; private String photo;
+	private int quantite; private boolean selectionne;
+	
+
+	private Categorie categorie;
+
+}

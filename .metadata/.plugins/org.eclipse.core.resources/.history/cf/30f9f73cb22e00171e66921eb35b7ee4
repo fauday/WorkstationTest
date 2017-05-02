@@ -1,0 +1,5 @@
+package org.alba.boutique;
+
+public class Produit {
+
+}
